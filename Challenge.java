@@ -11,8 +11,8 @@ public class Challenge {
             b = Integer.parseInt(br.readLine());
             System.out.println("Enter third number:");
             c = Integer.parseInt(br.readLine());
-            System.out.println("you entered the following numbers: " + "/n first number: " + a + "/n second number: "
-                    + b + "/n third number: " + c);
+            System.out.println("you entered the following numbers: " + "\n first number: " + a + "\n second number: "
+                    + b + "\n third number: " + c);
         } catch (IOException e) {
 
             System.out.println(e);
