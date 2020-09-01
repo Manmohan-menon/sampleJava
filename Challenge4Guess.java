@@ -22,12 +22,12 @@ public class Challenge4Guess
        } else if (guess < a) {
            System.out.println("Your guess is too low! Take a guess.");
        }else{
-            System.out.println("Congratulations. You guessed the number within "
+            System.out.println("Good job, "+name+"! You guessed my number in "
        + count + " tries!");
        }
    }   
        if(count>6){
-        System.out.println("Congratulations. Your guess has exceeded your alloted tries ! max tries for each:6 and you already have: "
+        System.out.println("Great going "+name+"! Einstein your guess has exceeded alloted tries ! max tries for each:6 and you already have: "
         + count + " tries! Game over!");
         scan.close();    
        }
